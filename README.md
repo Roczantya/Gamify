@@ -3,7 +3,6 @@
 
 
 ## 1. Latar Belakang Masalah
-    
   - **Masalah yang diambil sering kali yang _relate_ yang dialami para wisatawan**
       - Pengguna tidak termotivasi untuk berbagi pengalaman perjalanan mereka.
       * Tidak banyak insentif bagi pengguna untuk berpartisipasi aktif dalam komunitas perjalanan online.
