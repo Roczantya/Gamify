@@ -31,7 +31,7 @@
     - Spring Boot
     - Hibernate
   - **Frontend**
-    - javascrpt
+    - Ajax
     - Bootstrap
   - **Database**
     - MySQL
