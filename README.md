@@ -13,9 +13,11 @@
 
 ## 2. Solusi yang kami tawarkan
 
-  - Website yang menawarkan konten perjalanan terkurasi.
+  - Website yang menawarkan konten perjalanan terkurasi yang mana sudah dari sistem diaturkan
   - Sistem pengumpulan poin dimana pengguna mengirimkan tautan Instagram yang sesuai dengan task yang diberikan.
   - Poin dapat ditukar dengan voucher game atau hadiah lainnya yang mana yang akan menambah daya tarik wisatawan muda.
+
+    ![Ini potret Lean Canvas kami]([https://imgur.com/a/53KRG7M](https://imgur.com/a/d7hkm6x))
 
 ## Teknologi yang Digunakan
   - **Backend**
