@@ -1,8 +1,6 @@
 # Gamify
   > Website dibuat oleh sekelompok mahasiswa untuk menyelesaikan projek akhir di Semester 2 ini
 
-![External image](logo.png)
-
 
 ## 1. Latar Belakang Masalah
     
@@ -17,7 +15,7 @@
   - Sistem pengumpulan poin dimana pengguna mengirimkan tautan Instagram yang sesuai dengan task yang diberikan.
   - Poin dapat ditukar dengan voucher game atau hadiah lainnya yang mana yang akan menambah daya tarik wisatawan muda.
 
-    ![Ini potret Lean Canvas kami]([https://imgur.com/a/53KRG7M](https://imgur.com/a/d7hkm6x))
+    ![Externa Image](https://github.com/Roczantya/Gamify./blob/Gamify-Project/image/Screenshot%202024-06-16%20225750.png)
 
 ## Teknologi yang Digunakan
   - **Backend**
