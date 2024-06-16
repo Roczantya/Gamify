@@ -17,14 +17,21 @@
 
     ![Externa Image](https://github.com/Roczantya/Gamify./blob/Gamify-Project/image/Screenshot%202024-06-16%20225750.png)
 
-## Teknologi yang Digunakan
+## 3. Cara Penggunaan Aplikasi kami
+  1. Anda perlu register ke Website kami
+  2. Setelah Register anda perlu login kembali
+  3. Dalam website kami ada Activites, dimana nanti Anda dapat memilih Quest daerah mana akan diambil (misal di daerah Tana Toraja)
+  4. Setelah itu anda dapat melihat leaderboard untuk melihat poin tertinggi
+  5. Nah, disebelahnya terdapat Quest yang harus anda selesaikan untuk claim point
+  6. Jika sudah nanti akan ada halaman untuk claim voucher yang kami sediakan
+
+     
+## 4. Teknologi yang Digunakan
   - **Backend**
     - Spring Boot
     - Hibernate
   - **Frontend**
     - javascrpt
     - Bootstrap
-
-      
   - **Database**
     - MySQL
