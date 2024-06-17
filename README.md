@@ -1,6 +1,11 @@
 # Gamify
   > Website yang bertemakan wisata dengan dipadukan quest-quest menarik bila anda kebetulan berada di daerah kami buat tasknya. Anda sekalian pun bisa menukarnya menjadi point
 
+## Contributors
+- Adit as a Backend
+- Levin as a Frontend
+- Tino as a Frontend
+- Tiffany as Database and a little bit in BE
 
 ## 1. Latar Belakang Masalah
   - **Masalah yang diambil sering kali yang _relate_ yang dialami para wisatawan**
@@ -31,8 +36,16 @@ _Ini adalah Screenshot Lean Canvas kami_
 
 ## 5. Documentaian API 
    ![Externa Image](https://github.com/Roczantya/Gamify./blob/Gamify-Project/image/WhatsApp%20Image%202024-06-15%20at%2019.56.46_53abea45.jpg)
-     
-## 6. Teknologi yang Digunakan
+
+## 7. Class diagram
+![Wxternal Image](https://github.com/Roczantya/Gamify/blob/Gamify-Project/image/class%20diagram.png)
+
+_Maaf agak kecil diliat karena banyak menggunakan class_
+
+## 8. ER Diagram
+![external image]()
+
+## 9. Teknologi yang Digunakan
   - **Backend**
     - Spring Boot
     - Hibernate
