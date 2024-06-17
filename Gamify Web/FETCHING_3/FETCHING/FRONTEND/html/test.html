@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="../js/profile.js"></script>
+</head>
+<body>
+
+<div id="profileContainer">
+    <h1>User Profile</h1>
+    <div>
+        <label for="profileUsername">Username:</label>
+        <span id="profileUsername"></span>
+    </div>
+    <div>
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" readonly>
+    </div>
+    <div>
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" readonly>
+    </div>
+    <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" readonly>
+    </div>
+</div>
+
+<script>
+    // Fetch user profile data
+    $(document).ready(function() {
+        fetchUserProfile();
+    });
+
+    function fetchUserProfile() {
+        const email = localStorage.getItem('email');
+        const jwtToken = localStorage.getItem('jwtToken');
+
+        if (!email || !jwtToken) {
+            console.error('Email or JWT token not found in localStorage.');
+            return;
+        }
+
+        const url = `http://localhost:911/users/profile?email=${encodeURIComponent(email)}`;
+
+        $.ajax({
+            type: 'GET',
+            url: url,
+            headers: {
+                'Authorization': `Bearer ${jwtToken}`,
+                'Content-Type': 'application/json'
+            },
+            success: function(response) {
+                try {
+                    console.log('User profile fetched successfully:', response);
+                    populateUserProfile(response); // Call function to populate HTML with fetched data
+                } catch (error) {
+                    console.error('Error parsing JSON:', error);
+                    // Optionally handle the error or show a message to the user
+                }
+            },
+            error: function(xhr, status, error) {
+                console.error('Error occurred while fetching user profile:', error);
+                // Optionally handle the error or show a message to the user
+            }
+        });
+    }
+
+    function populateUserProfile(userProfile) {
+        if (userProfile && userProfile.username) {
+            $('#profileUsername').text(userProfile.username || 'N/A');
+            $('#firstName').val(userProfile.firstName || '');
+            $('#lastName').val(userProfile.lastName || '');
+            $('#usernameInput').val(userProfile.username || '');
+            $('#email').val(userProfile.email || '');
+        } else {
+            console.error('Invalid user profile data:', userProfile);
+            // Optionally handle the error or show a message to the user
+        }
+    }
+
+    // Function to handle logout
+    function handleLogout() {
+        localStorage.removeItem('email');
+        localStorage.removeItem('jwtToken');
+        window.location.href = './login.html'; // Redirect to login page or other appropriate page after logout
+    }
+
+    // Add event listener to logout link
+    $('#logoutLink').on('click', handleLogout);
+</script>
+
+</body>
+</html>
