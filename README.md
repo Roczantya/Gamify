@@ -9,20 +9,25 @@
       + Pengguna kesulitan menemukan informasi perjalanan yang dapat dipercaya di tengah banyaknya informasi yang tidak relevan atau tidak akurat di internet.      
 
 ## 2. Solusi yang kami tawarkan
-
   - Website yang menawarkan konten perjalanan terkurasi yang mana sudah dari sistem diaturkan
   - Sistem pengumpulan poin dimana pengguna mengirimkan tautan Instagram yang sesuai dengan task yang diberikan.
   - Poin dapat ditukar dengan voucher game atau hadiah lainnya yang mana yang akan menambah daya tarik wisatawan muda.
 
     ![Externa Image](https://github.com/Roczantya/Gamify./blob/Gamify-Project/image/Screenshot%202024-06-16%20225750.png)
+    
 
-## 3. Cara Penggunaan Aplikasi kami
-  1. Anda perlu register ke Website kami
-  2. Setelah Register anda perlu login kembali
-  3. Dalam website kami ada Activites, dimana nanti Anda dapat memilih Quest daerah mana akan diambil (misal di daerah Tana Toraja)
-  4. Setelah itu anda dapat melihat leaderboard untuk melihat poin tertinggi
-  5. Nah, disebelahnya terdapat Quest yang harus anda selesaikan untuk claim point
-  6. Jika sudah nanti akan ada halaman untuk claim voucher yang kami sediakan
+_Ini adalah Screenshot Lean Canvas kami_
+
+## 3. Fitur Fitur yang ada dalam aplikasi kami
+  1. Halaman Login & Register
+  2. Halaman Discover
+  3. Halaman Activites untuk melihat Quest dan Leaderboard
+  4. Halaman Redeem Point
+  5. Halaman Profile
+
+## 4, Use case kami
+
+## 5. Documentaian API 
 
      
 ## 4. Teknologi yang Digunakan
