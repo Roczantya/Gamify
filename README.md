@@ -25,7 +25,7 @@ _Ini adalah Screenshot Lean Canvas kami_
   4. Halaman Redeem Point
   5. Halaman Profile
 
-## 4, Use case Gamify
+## 4. Use case Gamify
   ![Externa Image](https://github.com/Roczantya/Gamify./blob/Gamify-Project/image/Screenshot%202024-06-17%20132421.png)
 
 
