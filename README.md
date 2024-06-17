@@ -1,5 +1,5 @@
 # Gamify
-  > Website yang bertemakan wisata dengan dipadukan quest-quest menarik bila anda kebetulan berada di daerah kami buat tasknya. Anda sekalian pun bisa menukarnya menjadi point
+  > Website yang bertemakan wisata dengan dipadukan quest-quest menarik, bila anda kebetulan berada di daerah kami buat quest. Anda sekalian pun bisa menukarnya menjadi point
 
 ## Contributors
 - Adit as a Backend
@@ -30,6 +30,8 @@ _Ini adalah Screenshot Lean Canvas kami_
   4. Halaman Redeem Point
   5. Halaman Profile
 
+> Mungkin di bila ini berhasil project kami harap dapat memperluas quest yang kami miliki ke seluruh Indonesia dan dapat menarik perhatian parra wisatawan muda
+
 ## 4. Use case Gamify
   ![Externa Image](https://github.com/Roczantya/Gamify./blob/Gamify-Project/image/Screenshot%202024-06-17%20132421.png)
 
@@ -54,3 +56,6 @@ _Maaf agak kecil diliat karena banyak menggunakan class_
     - Bootstrap
   - **Database**
     - MySQL
+   
+  ### Project status
+  > ditahap fetching data sedikit lagi mau finish
