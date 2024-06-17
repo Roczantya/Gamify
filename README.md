@@ -10,7 +10,7 @@
 
 ## 2. Solusi yang kami tawarkan
   - Website yang menawarkan konten perjalanan terkurasi yang mana sudah dari sistem diaturkan
-  - Sistem pengumpulan poin dimana pengguna mengirimkan tautan Instagram yang sesuai dengan task yang diberikan.
+  - Sistem pengumpulan poin dimana pengguna mengirimkan tautan Instagram yang sesuai dengan quest yang diberikan.
   - Poin dapat ditukar dengan voucher game atau hadiah lainnya yang mana yang akan menambah daya tarik wisatawan muda.
 
     ![Externa Image](https://github.com/Roczantya/Gamify./blob/Gamify-Project/image/Screenshot%202024-06-16%20225750.png)
