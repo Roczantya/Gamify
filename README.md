@@ -1,5 +1,5 @@
 # Gamify
-  > Website dibuat oleh sekelompok mahasiswa untuk menyelesaikan projek akhir di Semester 2 ini
+  > Website yang bertemakan wisata dengan dipadukan quest-quest menarik bila anda kebetulan berada di daerah kami buat tasknya. Anda sekalian pun bisa menukarnya menjadi point
 
 
 ## 1. Latar Belakang Masalah
@@ -25,12 +25,14 @@ _Ini adalah Screenshot Lean Canvas kami_
   4. Halaman Redeem Point
   5. Halaman Profile
 
-## 4, Use case kami
+## 4, Use case Gamify
+  ![Externa Image](https://github.com/Roczantya/Gamify./blob/Gamify-Project/image/Screenshot%202024-06-17%20132421.png)
+
 
 ## 5. Documentaian API 
-
+   ![Externa Image](https://github.com/Roczantya/Gamify./blob/Gamify-Project/image/WhatsApp%20Image%202024-06-15%20at%2019.56.46_53abea45.jpg)
      
-## 4. Teknologi yang Digunakan
+## 6. Teknologi yang Digunakan
   - **Backend**
     - Spring Boot
     - Hibernate
