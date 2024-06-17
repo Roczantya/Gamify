@@ -37,15 +37,15 @@ _Ini adalah Screenshot Lean Canvas kami_
 ## 5. Documentaian API 
    ![Externa Image](https://github.com/Roczantya/Gamify./blob/Gamify-Project/image/WhatsApp%20Image%202024-06-15%20at%2019.56.46_53abea45.jpg)
 
-## 7. Class diagram
+## 6. Class diagram
 ![Wxternal Image](https://github.com/Roczantya/Gamify/blob/Gamify-Project/image/class%20diagram.png)
 
 _Maaf agak kecil diliat karena banyak menggunakan class_
 
-## 8. ER Diagram
-![external image]()
+## 7. ER Diagram
+![external image](https://github.com/Roczantya/Gamify/blob/Gamify-Project/image/Screenshot%20(124).png)
 
-## 9. Teknologi yang Digunakan
+## 8. Teknologi yang Digunakan
   - **Backend**
     - Spring Boot
     - Hibernate
